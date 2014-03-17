@@ -1,0 +1,39 @@
+{
+    "env": "dev",
+    "mongo_address":
+        [
+            {"env":"dev", "ip": "54.209.85.21"},
+            {"env":"prod", "ip" : "54.208.211.161"}
+        ],
+    "db": "chandler",
+    "mongo_poolsize" : 4,
+    "mysql":
+    {
+        "address" : [
+            {"env":"dev", "ip": "54.209.85.21"},
+            {"env":"prod", "ip" : "54.208.211.161"}
+        ],
+        "db": "ecomm",
+        "user_id" : "annectos",
+        "password" : "annectos123"
+    },
+
+    "logging_level" : "INFO",
+    "AWS": {
+            "AWS_KEY": "AKIAIR4LFMB45BN652LA",
+            "AWS_SECRET": "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"
+    },
+    "email_info":
+            {
+                "sending_email" : "nodeemailer@gmail.com",
+                "password" : "crimespot123",
+                "sender_name" :"Friends from NodeMailer",
+                "sender_email" : "rahul.guha@gmail.com"
+            },
+    "email_templating_engine" : [
+        {"name": "jade", "config": {
+                    "template_path": "./email_template/branding"
+                    }},
+        {"name": "swig", "config": {}}
+        ]
+}
