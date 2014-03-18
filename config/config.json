@@ -5,7 +5,7 @@
             {"env":"dev", "ip": "54.209.85.21"},
             {"env":"prod", "ip" : "54.208.211.161"}
         ],
-    "db": "annectos_prod",
+    "db": "chandler",
     "mongo_poolsize" : 4,
     "mysql":
     {
