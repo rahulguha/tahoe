@@ -26,14 +26,9 @@ app.post('/upload', routes.upload);
 app.get('/routes', routes.findAll);
 app.get('/routes/:id', routes.findById);
 app.get('/store/cat', routes.cat);
-
-
-
-
 //todo add new routes for project chandler here *********************************************
 // add corresponding method in routes.js
 app.post('/user/login', routes.login);
-app.post('/claim/add', routes.addclaim);
 
 //******************************************************************************************
 app.get('/email', routes.send_email);

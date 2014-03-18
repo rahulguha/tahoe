@@ -8,7 +8,6 @@
 //var cat = require('../schema/category.js');
 var api = require('../controllers/api.js');
 var aws = require('../controllers/aws.js');
-
 exports.send_email = function(req, res) {
     console.log("routes.send_email");
     api.email();
@@ -27,24 +26,11 @@ exports.findById = function(req, res) {
 exports.cat = function(req, res) {
     api.cat_list(req,res);
 };
-
-exports.claim = function (req, res) {
-    api.claim_list(req, res);
-};
-
-
 // Add new methods for exporting apis *************************************************************************
 exports.login = function(req, res) {
    // api.cat_list(req,res);
 //    console.log (req.body);
     api.user_login(req,res);
-};
-
-
-exports.addclaim = function (req, res) {
-    // api.cat_list(req,res);
-    //    console.log (req.body);
-    api.add_claim(req, res);
 };
 
 // ******************************************************************************************
