@@ -35,6 +35,11 @@ exports.claim_by_company = function (req, res) {
     api.claims_by_company(req, res);
 };
 
+exports.get_email_requests = function (req, res) {
+    api.get_email_requests(req, res);
+    //console.log("grrr");
+};
+
 // Add new methods for exporting apis *************************************************************************
 exports.login = function(req, res) {
    // api.cat_list(req,res);

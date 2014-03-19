@@ -2,10 +2,10 @@
     "env": "dev",
     "mongo_address":
         [
-            {"env":"dev", "ip": "54.209.85.21"},
+            {"env":"dev", "ip": "mongodb://rahul:rahul123@oceanic.mongohq.com:10052"},
             {"env":"prod", "ip" : "54.208.211.161"}
         ],
-    "db": "chandler",
+    "db": "tahoedb",
     "mongo_poolsize" : 4,
     "mysql":
     {

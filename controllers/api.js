@@ -20,6 +20,7 @@ var payload = require('../model/mail_payload.js');
 var cat = require('../model/category.js');
 
 var claim = require('../model/claim.js');
+var email_request = require('../model/email_request.js');
 
 var logger = util.get_logger("api");
 
@@ -35,7 +36,6 @@ var claim_field_list = "claim_id user_id claim_details supporting_doc_list workf
             res.send(cats);
         });
     }; //mongo db get method example
-
 
     exports.claim_list = function (req, res) {
         claim
@@ -61,7 +61,20 @@ var claim_field_list = "claim_id user_id claim_details supporting_doc_list workf
 
         );
     };
+    exports.get_email_requests = function (req, res) {
+        //claim.find( function (err, results){
+        email_request.get_request()
+            .then (
+            function (results){
+                console.log(results);
+                send_to_response(results, res);
+            },
+            function (err){
+                res.send(err);
+            }
 
+        );
+    };
     // todo - depricate this method
     exports.claim_list_by_company = function (req, res) {
         var q ="{'company': '" + req.company +"','active' : 1 }";
@@ -75,7 +88,6 @@ var claim_field_list = "claim_id user_id claim_details supporting_doc_list workf
                 res.send( claims);
             });
     };
-
 
 //******************** end  get *************************************
 
@@ -121,8 +133,9 @@ exports.add_claim = function (req, res) {
 // ******************* private helper functions ***********************
 var send_to_response = function(results, res ){
     var arr = [];
-    results.forEach(function(claim){
-        arr.push(claim)
+    results.forEach(function(r){
+        arr.push(r)
+
     });
     res.contentType('application/json');
     res.send(arr);
