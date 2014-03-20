@@ -20,8 +20,8 @@
 
     "logging_level" : "INFO",
     "AWS": {
-            "AWS_KEY": "AKIAIR4LFMB45BN652LA",
-            "AWS_SECRET": "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"
+            "AWS_KEY": "????",
+            "AWS_SECRET": "????"
     },
     "email_info":
             {
