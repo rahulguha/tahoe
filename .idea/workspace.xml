@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbec0cd1-3c03-44df-8451-542c97bd740d" name="Default" comment="Email Request Insert works&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tahoe" afterPath="$PROJECT_DIR$/tahoe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/api.js" afterPath="$PROJECT_DIR$/controllers/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/email_request.js" afterPath="$PROJECT_DIR$/model/email_request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+    <list default="true" id="bbec0cd1-3c03-44df-8451-542c97bd740d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tahoe" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tahoe.iws" />
@@ -68,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="0" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.33242506" vertical-offset="2802" max-vertical-offset="3400">
+            <state line="245" column="22" selection-start="7524" selection-end="7524" vertical-scroll-proportion="0.0" vertical-offset="2802" max-vertical-offset="3400">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#934#1137#0" expanded="false" />
@@ -81,6 +77,15 @@
                 <element signature="e#2437#2845#0" expanded="false" />
                 <element signature="e#5593#5850#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/help/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="20" selection-start="216" selection-end="216" vertical-scroll-proportion="0.49210528" vertical-offset="0" max-vertical-offset="714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -296,7 +301,11 @@
       <created>1395196574305</created>
       <updated>1395196574305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Email Request Insert works&#10;">
+      <created>1395284896315</created>
+      <updated>1395284896315</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -323,14 +332,14 @@
     <frame x="20" y="28" width="1260" height="726" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.49959645" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49959645" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18805489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5004035" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -481,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="0" selection-start="7323" selection-end="7323" vertical-scroll-proportion="0.33242506" vertical-offset="2802" max-vertical-offset="3400">
+        <state line="245" column="22" selection-start="7524" selection-end="7524" vertical-scroll-proportion="0.0" vertical-offset="2802" max-vertical-offset="3400">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#934#1137#0" expanded="false" />
@@ -491,6 +500,13 @@
             <element signature="e#2437#2845#0" expanded="false" />
             <element signature="e#5593#5850#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="216" selection-end="216" vertical-scroll-proportion="0.49210528" vertical-offset="0" max-vertical-offset="714">
+          <folding />
         </state>
       </provider>
     </entry>
