@@ -36,6 +36,7 @@ app.get('/claims/list_by_company/:company', routes.claim_by_company);
 
 app.get('/email/requests', routes.get_email_requests);
 
+app.post('/email/requests/insert', routes.insert_email_request);
 app.post('/user/login', routes.login);
 app.post('/claim/add', routes.addclaim);
 

@@ -40,6 +40,10 @@ exports.get_email_requests = function (req, res) {
     //console.log("grrr");
 };
 
+exports.insert_email_request = function (req, res) {
+    api.insert_email_request(req, res);
+    //console.log("grrr");
+};
 // Add new methods for exporting apis *************************************************************************
 exports.login = function(req, res) {
    // api.cat_list(req,res);
