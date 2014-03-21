@@ -39,7 +39,10 @@ exports.get_email_requests = function (req, res) {
     api.get_email_requests(req, res);
     //console.log("grrr");
 };
-
+exports.pickup_email_request = function (req, res) {
+    api.pickup(req, res);
+    //console.log("grrr");
+};
 exports.insert_email_request = function (req, res) {
     api.insert_email_request(req, res);
     //console.log("grrr");
