@@ -1,0 +1,43 @@
+{
+    "data": {
+        "user_name": "rahulguha",
+        "password": "rahul123",
+        "cart_items": [
+            {
+                "sku": "ABCD",
+                "msrp": 1250.25,
+                "discount": 10,
+                "final_price": 112.22
+            },
+            {
+                "sku": "PQRSDF",
+                "msrp": 12.25,
+                "discount": 10,
+                "final_price": 1.2
+            }
+        ]
+    },
+    "template_id": "1",
+    "from": "rahul.guha@gmail.com",
+    "send_status": 0,
+    "priority": 99,
+    "app_id": "app3",
+    "_id": "532a54aa1c76fba0874c48ea",
+    "__v": 0,
+    "bcc": [],
+    "cc": [],
+    "to": [
+        {
+            "name": "Rahul Guha",
+            "email": "rahulguha@outlook.com"
+        },
+        {
+            "name": "Soham Guha",
+            "email": "rahul.guha@gmail.com"
+        }
+    ],
+    "call_details": {
+        "data_id": "01234",
+        "event_id": 25
+    }
+}
