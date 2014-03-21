@@ -3,25 +3,25 @@
     "mongo_address":
         [
             {"env":"dev", "ip": "mongodb://rahul:rahul123@oceanic.mongohq.com:10052"},
-            {"env":"prod", "ip" : "54.208.211.161"}
+            {"env":"prod", "ip" : "????"}
         ],
     "db": "tahoedb",
     "mongo_poolsize" : 4,
     "mysql":
     {
         "address" : [
-            {"env":"dev", "ip": "54.209.85.21"},
-            {"env":"prod", "ip" : "54.208.211.161"}
+            {"env":"dev", "ip": "????"},
+            {"env":"prod", "ip" : "????"}
         ],
         "db": "ecomm",
-        "user_id" : "annectos",
-        "password" : "annectos123"
+        "user_id" : "????",
+        "password" : "????"
     },
 
     "logging_level" : "INFO",
     "AWS": {
-            "AWS_KEY": "AKIAIR4LFMB45BN652LA",
-            "AWS_SECRET": "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"
+            "AWS_KEY": "????",
+            "AWS_SECRET": "????"
     },
     "email_info":
             {
